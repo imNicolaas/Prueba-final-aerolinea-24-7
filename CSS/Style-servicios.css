@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+header{
+    width: 100%;
+    height: 62px;
+    background-color: darkcyan;
+}
+nav{
+    background: blue;
+    text-align: center;
+    color: white;
+}
+#tit{
+    text-align: center;
+    background: cornflowerblue;
+}
+
+.Texto-24-7{
+    font-size: 24px;
+    position: absolute;
+    left: 12px;
+    top: 8px;
+
+    cursor: pointer;
+    background-color: rgb(139, 168, 159);
+    padding: 4px 8px;
+    border-radius: 6px;
+}
+
+.Cuadro_cerrar_sesion{
+    position: absolute;
+    right: 24px;
+    top: 9px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 6px;
+
+    width: 160px;
+    height: 42px;
+    background-color: rgb(139, 168, 159);
+
+    text-decoration: none;
+    color: black;
+}
+
+.volver_a_servicios{
+    position: absolute;
+    right: 205px;
+    top: 9px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 6px;
+
+    width: 160px;
+    height: 42px;
+    background-color: rgb(139, 168, 159);
+
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.divs_vuelos{
+    background-color: #b0c0bc; 
+    margin: 1% 0; 
+    width: 320px; 
+    border-radius: 12px; 
+    padding: 22px 34px;
+
+    margin: 32px 5%;
+}
+
+.divs_vuelos h4{
+    color: rgb(37, 37, 131);
+    text-align: center;
+}
+
+.divs_vuelos b{
+    color: rgb(34, 33, 33);
+}
+
+.divs_vuelos p{
+    color: rgb(109, 108, 108);
+}
+
+.contenedor{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.div_info_vuelos{
+    width: 80%;
+    background-color: rgb(179, 177, 177);
+    border-radius: 24px;
+    padding: 24px 32px;
+    
+    font-size: 20px;
+    position: relative;
+}
+
+.b{
+    position: absolute;
+    left: 220px;
+    top: 66px;
+    margin-bottom: 14px;
+}
+
+.c{
+    position: absolute;
+    left: 460px;
+    top: 66px
+}
+
+.d{
+    position: absolute;
+    left: 610px;
+    top: 66px
+}
+
+h2{
+    margin-left: 132px;
+}
+
+.Boton_consultar{
+    padding: 6px 12px;
+    position: relative;
+    left: 90%;
+    border-radius: 8px;
+    cursor: pointer;
+}
