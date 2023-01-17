@@ -1,6 +1,6 @@
 <?php
 
-    session_start(); //Si se quiere trabajar con la misma sesion se debe poner session_start(); al inicio de todos los docuemtnos en los que se quiera tener la misma sesion
+    session_start();
 
         if(!isset($_SESSION['usuario'])){
                 echo '
